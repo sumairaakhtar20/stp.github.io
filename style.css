@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color:rgb(0,0 ,0 ) ;
+    padding: 20px;
+    background: linear-gradient(135deg,black ,rgb(48,48,48));
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    border-radius: 50%;
+    
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    width: 60%;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: orange;
+    transition: 5s all ease;
+}
+nav ul li a:hover{
+    color: rgb(168, 112, 10);
+}
+.main{
+    height: 90vh;
+    background-image: url(./image/ssssssssss.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1{
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    animation: up 1.5s linear;
+}
+@keyframes up{
+  0%  {
+    transform: translatey(250px);
+    opacity: 0;
+    }
+    50%{
+        opacity: .2;
+    }
+    75%{
+        opacity: .4;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.main h1 span{
+    color: orange;
+    font-size: 47px;
+    font-weight: 900px;
+}
